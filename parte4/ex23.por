@@ -18,7 +18,7 @@ não disponível".*/
         escreva("=====================================\n")
         escreva("         E-COMMERCE          \n")
         escreva("=====================================\n")
-        escreva("SETORES:\n")
+        escreva("ESTADOS:\n")
         escreva("SP - SÃO PAULO\n")
         escreva("RJ - RIO DE JANEIRO\n")
         escreva("MG - MINAS GERAIS\n")
