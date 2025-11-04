@@ -26,6 +26,8 @@ nome do produto e seu preço (pré-definido por você). Se for um código invál
         escreva("=====================================\n")
         escreva("DIGITE O CÓDIGO DO PRODUTO DESEJADO: ")
         leia(codigo)
+
+        limpa()
         
         se (codigoInvalido(codigo)) {
           escolha (codigo) {
