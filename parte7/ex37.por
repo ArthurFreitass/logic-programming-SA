@@ -32,7 +32,7 @@ programa {
 idade e o salário de cada um dos 20 funcionários. Durante o loop, conte quantos funcionários
 têm mais de 30 anos E ganham mais de R$ 3000,00. Exiba essa contagem no final.*/
 
-        escreva("=====================================\n")
+    escreva("=====================================\n")
     escreva("         RH - PESQUISA     \n")
     escreva("=====================================\n\n")
 
