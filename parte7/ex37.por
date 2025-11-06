@@ -14,8 +14,8 @@ programa {
         escreva("Digite o salário do ", index + 1, "º funcionário: ")
         leia(salario[index])
         limpa()
-        se (salario[index] <= 100) {
-         escreva("ERRO: SALÁRIO DO FUCIONÁRIO MUITO BAIXO!\n\n")
+        se (salario[index] < 100) {
+         escreva("ERRO: SALÁRIO DO FUCIONÁRIO MUITO BAIXO! [MENOR QUE 100]\n\n")
          salario[index] = 0
         } senao {
           se (idade[index] > 30 e salario[index] > 3000) {
@@ -31,6 +31,10 @@ programa {
     /*37. RH (Análise de Pesquisa): O RH entrevistou 20 funcionários. Use o para para pedir a
 idade e o salário de cada um dos 20 funcionários. Durante o loop, conte quantos funcionários
 têm mais de 30 anos E ganham mais de R$ 3000,00. Exiba essa contagem no final.*/
+
+        escreva("=====================================\n")
+    escreva("         RH - PESQUISA     \n")
+    escreva("=====================================\n\n")
 
     analisePesquisa()
   }
